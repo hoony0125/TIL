@@ -120,9 +120,7 @@
 
    \- commit 메시지 commit 고유의 아이디를 시간 순서대로 볼 수 있다. 
 
-   <img src="git%20%EB%AA%85%EB%A0%B9%EC%96%B4%20(git%20bash%20%EB%98%90%EB%8A%94%20powershell).assets/image-20210902153852741.png" alt="image-20210902153852741" style="width:60%;" />
-
-   
+   ![image-20210903221602295](git%201%EC%9D%BC%EC%B0%A8.assets/image-20210903221602295.png)
 
 3.  `git diff 고유아이디1 고유아이디2` 
 

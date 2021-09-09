@@ -89,6 +89,8 @@ ALTER USER HR ACCOUNT UNLOCK IDENTIFIED BY 사용할비밀번호;
 
 ### 3. SQL Developer 다운로드 및 Oracle 연결
 
+SQL developer는 에디터이다. 
+
 SQL Developer를 설치하면 Oracle을 더 편리하게 사용할 수 있다.
 
 아래 링크로 가면 바로 쉽게 다운로드가 가능하다. 
@@ -127,6 +129,37 @@ sqldeveloper에 들어가서 아래의 sqldeveloper.exe파일을 실행시켜준
 
 <img src="Oracle_0.assets/image-20210908233508958.png" alt="image-20210908233508958" style="zoom:60%;" />
 
-좌측 하단 "상태:"에 **성공**이 뜨면 정상이다! 나는 다행히 한번에 성공이 떴다 후후 그리고 저장을 누르고 접속을 눌러 연결하였다! 
+좌측 하단 "상태:"에 **성공**이 뜨면 정상이다! 나는 다행히 한번에 성공이 떴다 후후 그리고 저장을 누르고 접속을 눌러 연결하였다! 와우!
 
-와우
+
+
+기본 사용법을 간단히 남기자면, 
+
+\- SYSTEM계정은 관리자계정이므로 가급적 건드리지 않는 것이 좋다. 
+
+ \- schema는 SQL developer 메인에서 좌측에 뜨는 메뉴 형태이다. 
+
+\- 작업할 파일을 만들 때는, 파일 > 새로만들기 > D드라이브에 만든 oracle폴더로 위치 설정 후 파일명 입력하고 > 확인 
+
+
+
+
+
+추가로 그리고 위 작업과는 별개로 데이터베이스를 이클립스랑도 연동할 수 있는데, 그 방법에 대해서도 여기서 다루고 넘어가려고 한다. 
+
+### 4. 이클립스와 데이터베이스 연동
+
+이클립스 메인에서 
+
+우측 상단의 아이콘(open perspective) > database development > ojdbc6 jar 다운로드(나의 경우엔 1.6이상으로 다운) (jar 파일은 압축 푸는게 아니다!!)
+
+이클립스에서 Database Connection 우클릭 > new > +버튼 > Add JAR > ojdbc6 jar 불러오고 > 기존에 있던 ojdbc14는 remove > ok > 아래 사진처럼 로컬 호스트 HR입력 > Test Connection 눌러서 ping succeeded가 뜨면 Finish > 이클립스 메인으로 와서 > xe > Schemas > HR > Tables > Employees > 여기까지 하면 sql developer에서 봤던 데이터베이스를 이클립스에서도 볼 수 있게 연결되었다.  
+
+<img src="C:/Users/kkh87/AppData/Roaming/Typora/typora-user-images/image-20210909094838216.png" alt="image-20210909094838216" style="zoom: 50%;" />
+
+그리고 다시 메인에서 scrapbook to edit SQL statement를 눌러준다. 
+
+![image-20210909221616112](Oracle_0.assets/image-20210909221616112.png)
+
+이렇게 되면 연동이 끝이다! 캡쳐를 적게 뜨고, 텍스트로만 작성하다보니 볼륨이 확 줄긴 했네.. 후후
+

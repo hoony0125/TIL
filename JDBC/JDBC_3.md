@@ -1,6 +1,6 @@
 ## JDBC 3 
 
-#### Practice 
+#### Practice (Insert, Update, Select, Delete)
 
 데이터로 학생 번호, 이름, 국어, 영어, 수학 점수를 저장하고, MainClass에서 사용자의 선택과 이름 입력에 따라 학생정보를 추가, 삭제, 검색, 수정, 모두 출력 할 수 있는 코드를 작성해보자 
 

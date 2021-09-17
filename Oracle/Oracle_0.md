@@ -140,26 +140,3 @@ sqldeveloper에 들어가서 아래의 sqldeveloper.exe파일을 실행시켜준
  \- schema는 SQL developer 메인에서 좌측에 뜨는 메뉴 형태이다. 
 
 \- 작업할 파일을 만들 때는, 파일 > 새로만들기 > D드라이브에 만든 oracle폴더로 위치 설정 후 파일명 입력하고 > 확인 
-
-
-
-
-
-추가로 그리고 위 작업과는 별개로 데이터베이스를 이클립스랑도 연동할 수 있는데, 그 방법에 대해서도 여기서 다루고 넘어가려고 한다. 
-
-### 4. 이클립스와 데이터베이스 연동
-
-이클립스 메인에서 
-
-우측 상단의 아이콘(open perspective) > database development > ojdbc6 jar 다운로드(나의 경우엔 1.6이상으로 다운) (jar 파일은 압축 푸는게 아니다!!)
-
-이클립스에서 Database Connection 우클릭 > new > +버튼 > Add JAR > ojdbc6 jar 불러오고 > 기존에 있던 ojdbc14는 remove > ok > 아래 사진처럼 로컬 호스트 HR입력 > Test Connection 눌러서 ping succeeded가 뜨면 Finish > 이클립스 메인으로 와서 > xe > Schemas > HR > Tables > Employees > 여기까지 하면 sql developer에서 봤던 데이터베이스를 이클립스에서도 볼 수 있게 연결되었다.  
-
-<img src="Oracle_0.assets/20210909_222056.png" alt="20210909_222056" style="zoom:50%;" />
-
-그리고 다시 메인에서 scrapbook to edit SQL statement를 눌러준다. 
-
-![20210909_222104](Oracle_0.assets/20210909_222104.png)
-
-이렇게 되면 연동이 끝이다! 캡쳐를 적게 뜨고, 텍스트로만 작성하다보니 볼륨이 확 줄긴 했네.. 후후
-

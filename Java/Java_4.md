@@ -8,7 +8,7 @@
 
 Java 프로그램은 main 메소드가 시작하는 첫 중괄호부터 끝 중괄호까지 위에서 아래로 코드가 실행되는 일련의 흐름을 가지고 있다. 이러한 흐름을 개발자가 원하는 방향으로 바꿀 수 있는 도구가 바로 제어문이다. 제어문의 개괄적으로 보면 다음과 같다. 
 
-<img src="Java%204%20(%EC%A0%9C%EC%96%B4%EB%AC%B8,%20If%EB%AC%B8,%20Switch%EB%AC%B8).assets/image-16308135760612.png" alt="img" style="zoom:75%;" />
+<img src="Java_4.assets/image.png" alt="image" style="zoom: 67%;" />
 
 조건문과 반복문 각각을 예시 위주로 살펴보며, 이번과 다음 두번에 걸쳐서 포스팅을 해보려고 한다. 
 
@@ -18,7 +18,7 @@ Java 프로그램은 main 메소드가 시작하는 첫 중괄호부터 끝 중�
 
 **2.1. if문의 형식과 기본조건** 
 
-<img src="Java%204%20(%EC%A0%9C%EC%96%B4%EB%AC%B8,%20If%EB%AC%B8,%20Switch%EB%AC%B8).assets/image-16308136171934.png" alt="img-" style="zoom:67%;" />
+<img src="Java_4.assets/image-16308136171934.png" alt="image-16308136171934" style="zoom:67%;" />
 
 if문은 위와 같은 형식을 가지고 있다. if문은 "만약 조건이 참이라면 중괄호 안의 실행문을 처리하고, 
 
@@ -129,7 +129,7 @@ if (!setup) {
 
 if - else문은 false일 때는 아무런 실행문 처리도 일어나지 않는 if문과는 달리,  조건이 true일 때는 실행문1을 처리하고, false일 때는 실행문2를 처리하는 기능을 한다. 
 
-<img src="Java%204%20(%EC%A0%9C%EC%96%B4%EB%AC%B8,%20If%EB%AC%B8,%20Switch%EB%AC%B8).assets/image-16308137907246.png" alt="img" style="zoom:67%;" />
+<img src="Java_4.assets/image-16308137907246.png" alt="image-16308137907246" style="zoom:67%;" />
 
 ```java
 int num = 15
@@ -188,7 +188,7 @@ System.out.println("msg는 " + msg + "입니다.");
 
 형식:
 
-<img src="Java%204%20(%EC%A0%9C%EC%96%B4%EB%AC%B8,%20If%EB%AC%B8,%20Switch%EB%AC%B8).assets/image-16308138550718.png" alt="img-" style="zoom:77%;" />
+<img src="Java_4.assets/image-16308138550718.png" alt="image-16308138550718" style="zoom:77%;" />
 
 if - else if - else문은 첫 조건1부터 시작해서 조건1이 false이면, 조건2로 내려가고, 조건2도 false이면 조건3으로 넘어가고, 계속 내려가면서 이 실행을 하다가 모든 조건에 부합하지 않으면, 마지막에 위치한 else문의 실행문을 처리하는 것이다. 조건분기하면 가장 대표적인 예시인 학점을 통해 이해해보자 
 
@@ -228,7 +228,7 @@ else {
 
 형식: 
 
-<img src="Java%204%20(%EC%A0%9C%EC%96%B4%EB%AC%B8,%20If%EB%AC%B8,%20Switch%EB%AC%B8).assets/image-163081406710310.png" alt="img-" style="zoom:65%;" />
+<img src="Java_4.assets/image-163081406710310.png" alt="image-163081406710310" style="zoom:67%;" />
 
 중첩 if문은 조건1이 true이면, 그 내부에 있는 if문으로 가서 조건2의 true/false를 판별한다. 만약 조건1이 참이고, 조건2도 참이라면, 실행문1을 처리한다. 그러나 만약 조건1은 참이지만 조건2는 거짓이라면, 실행문2를 처리한다. 만약 처음 조건1부터 false인 경우에는 else문의 실행문3을 처리한다. 아래의 예시에서 90점 이상인 학생은 A이지만, 그 중에서도 95점이상인 학생들은 A+를 주도록 중첩 if문을 사용해보자. 
 
@@ -309,7 +309,7 @@ if문과 다르게 범위를 지정할 수 없다.   (num > 0과 같은 부등�
 
 형식:
 
-<img src="Java%204%20(%EC%A0%9C%EC%96%B4%EB%AC%B8,%20If%EB%AC%B8,%20Switch%EB%AC%B8).assets/image-163081421680812.png" alt="img" style="zoom:67%;" />
+<img src="Java_4.assets/image-163081421680812.png" alt="image-163081421680812" style="zoom:67%;" />
 
 switch문의 형식을 보면, 대상이 되는 변수가 딱 떨어지는 명확한 값1과 같으면 실행문1을 처리하고 break가 걸려서 더 이상 아래의 case 값2로 내려가지 않게된다. 그러나 만약 같지 않다면, 값2와 비교를 하게되고, 맞을 때까지 밑으로 내려가며 이 과정을 반복해서 case의 마지막 값까지 비교를 하게된다. 그런데 만약 마지막까지 일치하는 값이 없을 경우에는 default에서 정해놓은 실행문n을 처리하게 되는 것이다. 아래 예시를 통해 보자.
 

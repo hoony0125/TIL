@@ -383,7 +383,7 @@ System.out.println(str); // 띄어쓰기를 반영해 안녕 친구들이 출력
 
 ### 6. 실습 해보기 
 
-![img](Java%20%EA%B8%B0%EC%B4%881(%EC%A3%BC%EC%84%9D%EB%AC%B8,%20%EC%B6%9C%EB%A0%A5,%20%EB%B3%80%EC%88%98,%20%EC%9E%85%EB%A0%A5,%20%EB%B0%B1%EC%8A%AC%EB%9E%98%EC%89%AC).assets/image.png)
+<img src="Java_1.assets/image.png" alt="image" style="zoom:80%;" />
 
 위 이미지처럼 출력하기 위한 코드를 작성해보자 
 

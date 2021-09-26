@@ -342,4 +342,4 @@ public class MainClass_studentprogram {
 
 출력하면 아래처럼 나온다. 
 
-<img src="../../../Java_12.assets/image-20210912141520323.png" alt="image-20210912141520323" style="zoom:80%;" />
+<img src="Java_12.assets/image-20211520323.png" alt="image-20211520323" style="zoom:80%;" />

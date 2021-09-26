@@ -240,7 +240,7 @@ boolean b2 = str12.contains("부산");                          // 출력값 fal
 
 일반자료형에 대응되는 Wrapper Class들이 있는데 아래 표를 통해 한눈에 확인이 가능하다. 이 중에서 특히 실무에서 많이 쓰이는 것은 Integer, Double, String이 있는데, 많이 쓰이는 것 위주로 살펴보려고 한다. 
 
-<img src="Java%203%20(String,%20Wrapper%20Class,%20Calendar).assets/image-20210905123804691.png" alt="image-" style="zoom:60%;" />
+<img src="Java_3.assets/image-20210905123804691.png" alt="image-20210905123804691" style="zoom:67%;" />
 
 **2.1. Integer, String** 
 

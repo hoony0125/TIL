@@ -24,7 +24,7 @@ def update(request, each_id):
         update_apply = get_object_or_404(Apply, pk = each_id)
         return render(request,"update.html",{'update_apply':update_apply})
 ```
-
+ 
 
 
 **2. update.html 파일을 만들고 템플릿을 작성한다.**

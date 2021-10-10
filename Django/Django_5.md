@@ -65,7 +65,7 @@ def update(request, each_id):
 value값을 넣어주어야 기존에 저장되어 있는 apply의 객체들이 들어가게 된다. (공란에 새로운 것을 작성하는게 아니라, 수정하는 것이므로) 이 때, textarea의 경우 value를 입력할 때, input태그와는 다르게 태그와 태그 사이에 적어준다. 
 
 그리고 form action에는 url을 적어주는데, 이 때, views.py에서 넘겨준 키의 이름으로 id도 같이 적어주어야 한다. 
-
+ 
 
 
 

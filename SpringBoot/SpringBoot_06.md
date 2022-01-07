@@ -1,6 +1,6 @@
 ## 스프링 부트 기초1 (프로젝트 생성,라이브러리, Thymeleaf, View환경설정, 빌드)
 
-#### 프로젝트 생성
+### 프로젝트 생성
 
 Java 11 설치
 
@@ -28,9 +28,9 @@ https://start.spring.io
 
 ​		\- Dependencies: Spring Web, Thymeleaf
 
+--------
 
-
-#### 스프링 부트 라이브러리
+### 스프링 부트 라이브러리
 
 - spring-boot-starter-web 
 
@@ -52,9 +52,10 @@ https://start.spring.io
   log로 남겨야 심각한 에러만 모아볼 수 있다거나, log파일들이 관리가 된다는 등의 이점이 있기 때문이다. 
 
   요즘은 logging을 slf4j, logback  조합으로 운영을 많이 한다. 이 방식이 표준에 가까운 방식이다. 
-  
 
-#### 테스트 라이브러리
+------
+
+### 테스트 라이브러리
 
 - spring-boot-starter-test 
 
@@ -68,7 +69,9 @@ https://start.spring.io
 
   cf ) test와 관련된 라이브러리는 junit이 기본인데 junit4를 사용하다가 최근에는 junit5를 많이 사용한다. 
 
-#### Thymeleaf = 템플릿 엔진 중 하나 
+-------
+
+### Thymeleaf = 템플릿 엔진 중 하나 
 
 : 템플릿 엔진이란, 지정된 템플릿 양식과 데이터가 합쳐져 HTML문서를 출력하는 소프트웨어 
 
@@ -116,9 +119,9 @@ https://start.spring.io
 
   Spring.io에 들어가서 Project > Spring Boot에 들어가서 두번째 탭에 Learn에 들어가서 원하는 기능에 대한 사용방법을 검색할 수 있다. 
 
-#### 
+---------------
 
-#### View 환경설정 
+### View 환경설정 
 
 - ##### Welcome page만들기 
 
@@ -171,7 +174,9 @@ thymeleaf 템플릿엔진 동작 확인한다.
 
 
 
-#### 빌드하고 실행하기 => 실제 실행할 수 있는 파일 만들기 (윈도우 기준)
+---------
+
+### 빌드하고 실행하기 => 실제 실행할 수 있는 파일 만들기 (윈도우 기준)
 
 .jar파일 만들기 => 나중에 서버 배포해서 사용할 때 이 파일 하나만 넣고 실행하면 된다. 
 
@@ -181,9 +186,9 @@ thymeleaf 템플릿엔진 동작 확인한다.
 
 3. gradlew build
 
+-----
 
-
-##### Reference
+#### Reference
 
 인프런 김영한 [무료]스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 강의
 
